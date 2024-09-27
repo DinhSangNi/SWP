@@ -1,0 +1,54 @@
+.footer {
+  background-color: #130434;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-section h4 {
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #ffffff;
+}
+.App a {
+  margin-right: 15px;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.footer-section ul li {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  color: #ffffff;
+}
+.footer-section p {
+  color: #ffffff;
+}
+
+.footer-section ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: white;
+}
